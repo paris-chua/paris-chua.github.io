@@ -1,3 +1,11 @@
 p {
   color: red;
 }
+
+.smaller-img {
+  width: 300px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
