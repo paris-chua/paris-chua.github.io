@@ -1,15 +1,10 @@
 @-ms-viewport{ width: device-width; }
 @media screen {
-  
+
 }
 
 .table-of-contents {
   display: inline-block;
-}
-
-section {
-  background-color:burlywood;
-  padding: auto;
 }
 
 body {
@@ -17,12 +12,25 @@ body {
   font-family: sans-serif;
 }
 
+.mt {
+  position: relative;
+}
+
+.greet {
+  position: absolute;
+}
+
+section {
+  background-color:burlywood;
+  padding: auto;
+}
+
 p {
   color: red;
 }
 
 .smaller-img {
-  width: 300px;
+  width: 500px;
 }
 
 .responsive-img {
