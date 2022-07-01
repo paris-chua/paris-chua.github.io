@@ -46,6 +46,8 @@ display: flex;
   float: right;
   /* width: 50%; */
   /* margin-left: 550px; */
+  font-size: 20px;
+  color: sienna;
 }
 
 section {
