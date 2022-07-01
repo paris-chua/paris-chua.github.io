@@ -1,11 +1,22 @@
 @-ms-viewport{ width: device-width; }
-@media screen and (min-width: 320px) {
+
+body {
+  background-color: papayawhip;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 320px) {
   body {background-color: pink;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   body {background-color: cadetblue;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {background-color:aquamarine;
   }
 }
 
@@ -14,14 +25,9 @@ li {
   padding: 20px;
 }
 
-.table-of-contents {
+/* .table-of-contents {
   display: inline-block;
-}
-
-body {
-  background-color: papayawhip;
-  font-family: sans-serif;
-}
+} */
 
 .mt {
   position: relative;
@@ -32,7 +38,7 @@ body {
 }
 
 .turtle {
-  width: 50%
+display: flex;
 }
 
 .text {
@@ -48,6 +54,8 @@ section {
 
 p, #see-red{
   color: red;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 .blue-text {
@@ -66,11 +74,21 @@ em {
   display: block;
 }
 
-.smaller-img {
+/* .smaller-img {
   width: 500px;
-}
+} */
 
-.responsive-img {
+/* .responsive-img {
   max-width: 100%;
   height: auto;
+} */
+
+.container {
+  padding: 10px 20px;
+  border: 2px solid darkred;
+  margin: 15px;
+  width: 75%;
+  line-height: 1.5;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 15px lightyellow; 
 }
