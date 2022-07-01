@@ -87,8 +87,10 @@ em {
   padding: 10px 20px;
   border: 2px solid darkred;
   margin: 15px;
-  width: 75%;
+  width: 70%;
   line-height: 1.5;
   background-clip: content-box;
-  box-shadow: inset 0 0 0 15px lightyellow; 
-}
+  box-shadow: inset 0 0 0 15px yellow; 
+} 
+/* background-clip and box-shadow properties */
+/* from https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding/35252091#35252091 */
