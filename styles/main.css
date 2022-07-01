@@ -29,12 +29,13 @@ li {
   display: inline-block;
 } */
 
-.mt {
+.mt, .turtle {
   position: relative;
 }
 
-.greet {
+.greet-text {
   position: absolute;
+  top: 30px;
 }
 
 .turtle {
@@ -43,7 +44,7 @@ display: flex;
 
 .text {
   float: right;
-  width: 50%;
+  /* width: 50%; */
   /* margin-left: 550px; */
 }
 
