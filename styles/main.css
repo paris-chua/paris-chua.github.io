@@ -3,6 +3,11 @@
 
 }
 
+li {
+  display: inline;
+  padding: 20px;
+}
+
 .table-of-contents {
   display: inline-block;
 }
@@ -18,6 +23,16 @@ body {
 
 .greet {
   position: absolute;
+}
+
+.turtle {
+  width: 50%
+}
+
+.text {
+  float: right;
+  width: 50%;
+  /* margin-left: 550px; */
 }
 
 section {
