@@ -40,8 +40,12 @@ section {
   padding: auto;
 }
 
-p {
+p, #see-red{
   color: red;
+}
+
+em {
+  display: block;
 }
 
 .smaller-img {
