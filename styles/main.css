@@ -20,10 +20,10 @@ body {
   }
 }
 
-li {
+/* li {
   display: inline;
   padding: 20px;
-}
+} */
 
 .courses {
   position: fixed;
