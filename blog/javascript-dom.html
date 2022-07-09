@@ -5,23 +5,85 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="../styles/main.css" rel="stylesheet" type="text/css">
-        <title>Javascipt Fundamentals</title>
+        <title>JavaScript Fundamentals</title>
     </head>
     <body>
-      <header>What is Javascipt?</header>
+      <header>
+        <h1>JavaScript Basics</h1>
+      </header>
 
-      <article>JS relationship with HTML and CSS</article>
+      <section>
+        <article>
+          <h2>JavaScript relationship with HTML and CSS</h2>
+            <p class="blue-text">Building web application is like making an interactive children book.
+              The author is the HTML, who provide the content and structure of the story, 
+              The illustrator is the CSS, who provide the styling including color, sizing of the pictures, the layout of the pages.
+              JavaScript is the modern technologies that make the book comes alive, 
+              be it opening of a page or touch of a button on a page of the book.
+            </p>
+        </article>
 
-      <article>Control Flow and Loops</article>
-        <p>Using example process from everyday life</p>
+        <article>
+          <h2>Document Object Model, the DOM</h2>
+          <p class="blue-text">DOM provides an interface for web developers to use JavaScript on a browser to interact with other documents such as HTML.
+            In the DOM, every HTML element is represented as objects.
+            JavaScript could then be used to access any elements in order to modify or create elements on a browser.</p>
+          <p>Examples
 
-      <article>DOM</article>
-        <p>example of interaction with it</p>
+          </p>
+        </article>
+      </section>
 
-      <article>Arrays and Objects</article>
-        <p>Difference between accessing data from them</p>
+      <article>
+        <h2>Control Flow and Loops</h2>
+        <p class="blue-text">Loops are set of conditions given to the computer so task could be repeated to a set number of times with a stop condition. 
 
-      <article>Helpful FUnctions</article>
+          This is like washing dishes the old fashion way after a meal!!
+          1. put the sink plug on
+          2. turn on the hot tap
+          3. squirt in the dishwashing liquid
+          4. wash the dishes
+          5. stop washing the dishes when all dishes are done
+          
+          For (let i= prepare the sink; i >= one dish to be washed; i=stop when all dishes are washed)
         
+        </p>
+      </article>
+
+      <article>
+        <h2>Arrays and Objects</h2>
+        <p class="blue-text">An array is a variable that could hold more than one value.
+          An object could also be a variable that could hold more than one value (aka member).
+          This member is a data type with name (key) and value/ values pair called property.
+          
+          Accessing data from them requires different structure of statements or syntax.
+          For an array, we uses number (index) to access its data. First item in an array is indexed as 0.
+          For example,
+          let animals = ['dogs', 'cats', 'mice', 'rabbits'}
+          animals[0] = 'dogs'
+          animals[3] = 'rabbits'
+
+          For an object, we uses name or key to access its data. 
+          For example,
+          let person = {
+            lastName: 'Chua',
+            firstName: 'Paris',
+            hairColor: 'Black',
+            eyeColor: 'Dark Brown'
+          }
+          person.hairColor = 'Black'
+        </p>
+      </article>
+
+      <article>
+        <h2>Functions and why they are helpful</h2>
+          <p class="blue-text">JavaScript function is a block of codes written to execute a particular task. 
+            Functions are helpful because they could be used repeatedly when called upon using different arguments.
+            For example,
+            <img src="../images/JS function example 1-1.png" alt="image of an example of function">
+            <img src="../images/JS function example 1-2.png" alt="another image of an example of function">
+          </p>
+
+      </article>  
     </body>
 </html>
