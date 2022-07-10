@@ -118,3 +118,7 @@ em {
   background-color: papayawhip;
   cursor: pointer;
 }
+
+.DOM-img {
+  display: block;
+}
