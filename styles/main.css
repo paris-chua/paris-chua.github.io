@@ -115,14 +115,29 @@ em {
 /* background-clip and box-shadow properties */
 /* from https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding/35252091#35252091 */
 
-.dropdown-content a {
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1;
+}
+
+.a {
   color: #551a8b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropbtn:hover {
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
   background-color: papayawhip;
   cursor: pointer;
 }
