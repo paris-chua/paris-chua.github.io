@@ -41,16 +41,17 @@ body {
 .greet-text {
   position: absolute;
   top: 30px;
+  left: 30px;
 }
 
 .turtle {
 display: flex;
+align-items: center;
 }
 
 .text {
   float: right;
-  /* width: 50%; */
-  /* margin-left: 550px; */
+  margin: 20px;
   font-size: 20px;
   color: sienna;
 }
