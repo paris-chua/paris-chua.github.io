@@ -2,7 +2,13 @@
 
 body {
   background-color: papayawhip;
-  font-family: sans-serif;
+  font-family: monospace;
+  margin: 20px
+}
+
+h2 {
+  font-size: 20px;
+  color: black;
 }
 
 @media screen and (max-width: 320px) {
@@ -30,9 +36,9 @@ body {
   bottom: 0px;
 }
 
-/* .table-of-contents {
-  display: inline;
-} */
+.table-of-contents {
+  margin: 4px;
+}
 
 .mt, .turtle {
   position: relative;
@@ -42,6 +48,7 @@ body {
   position: absolute;
   top: 30px;
   left: 30px;
+  font-size: 20px;
 }
 
 .turtle {
@@ -52,7 +59,7 @@ align-items: center;
 .text {
   float: right;
   margin: 20px;
-  font-size: 20px;
+  font-size: 18px;
   color: sienna;
 }
 
