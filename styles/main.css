@@ -7,7 +7,6 @@ body {
 }
 
 h2 {
-  font-size: 20px;
   color: black;
 }
 
@@ -46,9 +45,11 @@ h2 {
 
 .greet-text {
   position: absolute;
-  top: 30px;
-  left: 30px;
-  font-size: 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  left: 150px;
+  font-size: 16px;
 }
 
 .turtle {
