@@ -43,18 +43,35 @@ h2 {
   position: relative;
 }
 
-.greet-text {
+/* .greet-text {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   left: 150px;
   font-size: 16px;
+} */
+
+.turtle figcaption{
+/* display: flex;
+align-items: center; */
+position: absolute;
+padding: 10px;
+left: 0;
+top: 10%;
+text-align: centre;
+font-size: 16px;
+color: white;
 }
 
-.turtle {
-display: flex;
-align-items: center;
+.mt figcaption{
+position: absolute;
+padding: 10px;
+left: 0;
+top: 10%;
+text-align: centre;
+font-size: 20px;
+color: white;
 }
 
 .text {
